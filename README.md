@@ -1,5 +1,5 @@
 ## 1. Overview
-This artifact package accompanies the paper *“Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions (https://arxiv.org/abs/2503.23278).”*  
+This artifact package accompanies the paper *“Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions“* (https://arxiv.org/abs/2503.23278).  
 It includes two primary components used in the study:  
 1. **Landscape Data** — quantitative and qualitative ecosystem data for the MCP landscape.  
 2. **Example of Threat** — simplified, sandboxed demonstrations of selected security risks discussed in the paper.  
@@ -64,4 +64,5 @@ The folder `example_of_threat/` contains safe, educational demonstrations replic
 ## License
 All artifact materials are provided under the **MIT License**.  
 Contributions and data updates are encouraged with appropriate attribution.
+
 
