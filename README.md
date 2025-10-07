@@ -10,8 +10,8 @@ It includes two primary components used in the study:
 
 | File/Folder | Description |
 |--------------|-------------|
-| `landscape_data/` | Contains the two structured tables summarizing the MCP ecosystem adoption and repository landscape. |
-| `example_of_threat/` | Safe, demonstrative example illustrating selected MCP security scenarios. |
+| `Landscape_data/` | Contains the two structured tables summarizing the MCP ecosystem adoption and repository landscape. |
+| `Examples/` | Safe, demonstrative example illustrating selected MCP security scenarios. |
 | `README.md` | This documentation file. |
 
 ---
@@ -19,7 +19,7 @@ It includes two primary components used in the study:
 ## 3. Description of Components
 
 ### 3.1 Landscape Data
-The `landscape_data/` directory contains two structured tables in CSV format (`mcp_adoption.csv`, `mcp_servers_list.csv`).  
+The `Landscape_data/` directory contains two structured tables in CSV format (`mcp_adoption.csv`, `mcp_servers_list.csv`).  
 These datasets were compiled through manual review and verification of publicly available MCP ecosystem platforms (as of **September 2025**).  
 
 #### **Table 1 — Overview of MCP Ecosystem Adoption**
@@ -55,7 +55,7 @@ These collections were aggregated from publicly available sources and official r
 ---
 
 ### 3.2 Example of Threat
-The folder `example_of_threat/` contains safe, educational demonstrations replicating two classes of risks:
+The folder `Examples/` contains safe, educational demonstrations replicating two classes of risks:
 - **Malicious Tool Exposure**: A mock MCP server unintentionally reveals an unsafe endpoint.  
 - **Command Injection in User Input**: Demonstrates sandbox isolation and input sanitization.  
 
@@ -64,5 +64,6 @@ The folder `example_of_threat/` contains safe, educational demonstrations replic
 ## License
 All artifact materials are provided under the **MIT License**.  
 Contributions and data updates are encouraged with appropriate attribution.
+
 
 
