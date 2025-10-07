@@ -1,15 +1,3 @@
-非常好！根据你提供的两张表（`\ref{tab:mcp_adoption}` 和 `\ref{tab:mcp_list}`），我为你的 **artifact** README 文件更新了 **landscape_data** 部分，使其可以直接包含这些表格的说明与更新说明。下面是完整更新后的简洁版 README，保持与前文一致的风格：  
-
----
-
-# README for Artifacts  
-**Title:** Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions  
-**Manuscript No.:** TOSEM‑2025‑0281  
-**Authors:** [Author Names]  
-**Contact:** [Email Address]  
-
----
-
 ## 1. Overview
 This artifact package accompanies the paper *“Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions.”*  
 It includes two primary components used in the study:  
@@ -102,3 +90,4 @@ Contributions and data updates are encouraged with appropriate attribution.
 ---
 
 Would you like me to generate a **repository structure template** (e.g., folder tree + file format examples for `mcp_adoption.csv` and `mcp_servers_list.csv`) so reviewers can reproduce your results easily?
+
