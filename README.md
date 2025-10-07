@@ -1,5 +1,5 @@
 ## 1. Overview
-This artifact package accompanies the paper *“Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions.”*  
+This artifact package accompanies the paper *“Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions (https://arxiv.org/abs/2503.23278).”*  
 It includes two primary components used in the study:  
 1. **Landscape Data** — quantitative and qualitative ecosystem data for the MCP landscape.  
 2. **Example of Threat** — simplified, sandboxed demonstrations of selected security risks discussed in the paper.  
@@ -10,8 +10,8 @@ It includes two primary components used in the study:
 
 | File/Folder | Description |
 |--------------|-------------|
-| `data/landscape_data/` | Contains the two structured tables summarizing the MCP ecosystem adoption and repository landscape. |
-| `examples/example_of_threat/` | Safe, demonstrative example illustrating selected MCP security scenarios. |
+| `landscape_data/` | Contains the two structured tables summarizing the MCP ecosystem adoption and repository landscape. |
+| `example_of_threat/` | Safe, demonstrative example illustrating selected MCP security scenarios. |
 | `README.md` | This documentation file. |
 
 ---
@@ -19,12 +19,12 @@ It includes two primary components used in the study:
 ## 3. Description of Components
 
 ### 3.1 Landscape Data
-The `data/landscape_data/` directory contains two structured tables in CSV and LaTeX format (`mcp_adoption.csv`, `mcp_servers_list.csv`).  
+The `landscape_data/` directory contains two structured tables in CSV format (`mcp_adoption.csv`, `mcp_servers_list.csv`).  
 These datasets were compiled through manual review and verification of publicly available MCP ecosystem platforms (as of **September 2025**).  
 
 #### **Table 1 — Overview of MCP Ecosystem Adoption**
 **File:** `mcp_adoption.csv`  
-This table provides a high-level summary of how major AI frameworks, developer tools, IDEs, and cloud services have adopted and integrated the Model Context Protocol.  
+This table provides a high-level summary of how major AI frameworks, developer tools, IDEs, and cloud services have adopted and integrated the MCP.  
 It includes 5 primary categories:
 
 | Category | Examples | Representative Highlights |
@@ -55,39 +55,13 @@ These collections were aggregated from publicly available sources and official r
 ---
 
 ### 3.2 Example of Threat
-The folder `examples/example_of_threat/` contains safe, educational demonstrations replicating two classes of risks:
+The folder `example_of_threat/` contains safe, educational demonstrations replicating two classes of risks:
 - **Malicious Tool Exposure**: A mock MCP server unintentionally reveals an unsafe endpoint.  
 - **Command Injection in User Input**: Demonstrates sandbox isolation and input sanitization.  
 
-Example usage:
-```bash
-cd examples/example_of_threat
-python run_example.py
-```
-Outputs logged to `logs/example_output.txt` show how the system correctly blocks unsafe actions.
-
 ---
 
-## 4. Ethical and Safety Notice
-All threat examples are **non‑malicious and sandboxed**.  
-They do **not** perform any external network operations or system modifications.  
-Use is restricted to **research and education** under responsible disclosure principles.
-
----
-
-## 5. Citation
-If you use or extend these materials, please cite:
-
-> [Author Names]. *Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions.*  
-> ACM Transactions on Software Engineering and Methodology (TOSEM), 2025.
-
----
-
-## 6. License
+## License
 All artifact materials are provided under the **MIT License**.  
 Contributions and data updates are encouraged with appropriate attribution.
-
----
-
-Would you like me to generate a **repository structure template** (e.g., folder tree + file format examples for `mcp_adoption.csv` and `mcp_servers_list.csv`) so reviewers can reproduce your results easily?
 
