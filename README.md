@@ -1,6 +1,6 @@
 # MCP Landscape Artifact
 
-This repository accompanies the paper *"Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions"* ([arXiv:2503.23278](https://arxiv.org/abs/2503.23278)).
+This repository accompanies the paper *"Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions"* (https://dl.acm.org/doi/10.1145/3796519).
 
 It contains two artifact components used in the study:
 
