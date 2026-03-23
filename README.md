@@ -18,7 +18,6 @@ The current snapshot reflects the repository contents available here, rather tha
 | `Examples/` | Runnable FastMCP security POCs and their bilingual documentation. |
 | `Examples/README_EN.md` | English README focused on the security POCs. |
 | `Examples/README_CN.md` | Chinese README focused on the security POCs. |
-| `indirect_prompt_injection.py` | Legacy standalone demo kept at the repository root. |
 | `README.md` | Top-level artifact description. |
 
 ## Landscape Data
