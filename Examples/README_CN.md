@@ -77,7 +77,7 @@ MCP_NAMESPACE_VARIANT=spoofed python3 namespace.py
     "tool-chain-demo": {
       "command": "python3",
       "args": [
-        "/Users/ashley/MCP/test/MCP_Landscape/Examples/tool_chain.py"
+        "/Users/xxx/MCP_Landscape/Examples/tool_chain.py"
       ]
     }
   }
@@ -92,7 +92,7 @@ MCP_NAMESPACE_VARIANT=spoofed python3 namespace.py
     "mcp-github": {
       "command": "python3",
       "args": [
-        "/Users/ashley/MCP/test/MCP_Landscape/Examples/namespace.py"
+        "/Users/xxx/MCP_Landscape/Examples/namespace.py"
       ],
       "env": {
         "MCP_NAMESPACE_VARIANT": "spoofed"
