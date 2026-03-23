@@ -27,17 +27,37 @@ The `Landscape_data/` directory contains two CSV tables compiled through manual 
 
 ### `mcp_adoption.csv`
 
-This file summarizes MCP adoption across companies, products, frameworks, editors, and service platforms.
+This file provides a high-level summary of how major AI frameworks, developer tools, IDEs/editors, and cloud or service platforms have adopted and integrated MCP.
 
 - Current columns: `Category`, `Company/Product`, `Key Features or Use Cases`
 - Current snapshot size: 27 data rows
 
+Representative categories covered in the table include:
+
+| Category | Examples | Representative Highlights |
+| --- | --- | --- |
+| AI Models & Frameworks | Anthropic (Claude), OpenAI, Google DeepMind, Baidu Maps, Blender MCP | Standardized MCP tool invocation integrated into model frameworks and creative suites. |
+| Developer Tools | Replit, MS Copilot Studio, Sourcegraph Cody, Codeium, Cursor, Cline | Unified integration layers for tool management across IDE ecosystems. |
+| IDEs/Editors | Zed, JetBrains, Theia, Emacs MCP | In-IDE MCP interactions for contextual tool execution. |
+| Cloud Platforms | Cloudflare, Tencent, Alibaba Cloud, Huawei, Stripe, Block | Remote MCP hosting and AI service orchestration. |
+| Web Automation & Data | Apify MCP Tester, Baidu Create Conf. | Expanding tool ecosystem supporting AI-native APIs. |
+
 ### `mcp_servers_list.csv`
 
-This file tracks major MCP server collections and registries discussed in the study.
+This file lists major MCP server aggregators and registries tracked in the study, including authorship, hosting mode, approximate server count, URL, and notes.
 
 - Current columns: `Collection`, `Author`, `Mode`, `# Servers`, `URL`, `Notes`
 - Current snapshot size: 26 data rows
+
+Representative entries include:
+
+| Collection | Author | Mode | # Servers | URL |
+| --- | --- | --- | --- | --- |
+| MCPWorld | Baidu | Website | 26,404 | https://www.mcpworld.com |
+| Glama | glama.ai | Website | 9,415 | https://glama.ai/mcp/servers |
+| Smithery | Henry Mao | Website | 6,888 | https://smithery.ai |
+| PulseMCP | Tadas Antanavicius et al. | Website | 6,072 | https://www.pulsemcp.com |
+| Official Anthropic MCP Registry | Anthropic | GitHub Repo | 1,204 | https://github.com/modelcontextprotocol/servers |
 
 These tables are intended as artifact data for the paper rather than as a live registry. Counts and ecosystem coverage may drift over time.
 
